@@ -17,6 +17,6 @@ const RnFingerprintChange = NativeModules.RnFingerprintChange
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return RnFingerprintChange.multiply(a, b);
+export function hasFingerPrintChanged(): Promise<number> {
+  return RnFingerprintChange.hasFingerPrintChanged();
 }

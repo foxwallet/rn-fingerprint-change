@@ -11,11 +11,11 @@ npm install rn-fingerprint-change
 ## Usage
 
 ```js
-import { multiply } from 'rn-fingerprint-change';
+import { hasFingerPrintChanged } from 'rn-fingerprint-change';
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await hasFingerPrintChanged();
 ```
 
 ## Contributing

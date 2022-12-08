@@ -41,13 +41,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/foxwallet/react-native-fingerprint-change",
+  "repository": "https://github.com/foxwallet/rn-fingerprint-change",
   "author": "foxwallet <dev@foxwallet.com> (https://github.com/foxwallet)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/foxwallet/react-native-fingerprint-change/issues"
+    "url": "https://github.com/foxwallet/rn-fingerprint-change/issues"
   },
-  "homepage": "https://github.com/foxwallet/react-native-fingerprint-change#readme",
+  "homepage": "https://github.com/foxwallet/rn-fingerprint-change#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
