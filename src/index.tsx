@@ -17,6 +17,6 @@ const RnFingerprintChange = NativeModules.RnFingerprintChange
       }
     );
 
-export function hasFingerPrintChanged(): Promise<number> {
-  return RnFingerprintChange.hasFingerPrintChanged();
+export async function hasFingerPrintChanged(): Promise<boolean> {
+  return !!(await RnFingerprintChange.hasFingerPrintChanged());
 }
